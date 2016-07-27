@@ -1,0 +1,399 @@
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.Java9ByteGenericArrayBenchmark.equalsTestJava9GenericArrays
+
+# Run progress: 0,00% complete, ETA 00:02:12
+# Fork: 1 of 1
+# Warmup Iteration   1: 159,144 ms/op
+Iteration   1: 151,941 ms/op
+Iteration   2: 151,117 ms/op
+Iteration   3: 146,862 ms/op
+Iteration   4: 146,449 ms/op
+Iteration   5: 147,232 ms/op
+Iteration   6: 146,828 ms/op
+Iteration   7: 148,341 ms/op
+Iteration   8: 150,332 ms/op
+Iteration   9: 151,053 ms/op
+Iteration  10: 150,814 ms/op
+
+
+Result "equalsTestJava9GenericArrays":
+  149,097 ±(99.9%) 3,253 ms/op [Average]
+  (min, avg, max) = (146,449, 149,097, 151,941), stdev = 2,152
+  CI (99.9%): [145,844, 152,350] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.Java9ByteGenericArrayBenchmark.getTestJava9GenericArray
+
+# Run progress: 8,33% complete, ETA 00:03:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 9325,036 ms/op
+Iteration   1: 9645,303 ms/op
+Iteration   2: 7929,620 ms/op
+Iteration   3: 7960,421 ms/op
+Iteration   4: 8047,047 ms/op
+Iteration   5: 7928,185 ms/op
+Iteration   6: 8022,682 ms/op
+Iteration   7: 7826,534 ms/op
+Iteration   8: 8011,939 ms/op
+Iteration   9: 7927,608 ms/op
+Iteration  10: 8015,976 ms/op
+
+
+Result "getTestJava9GenericArray":
+  8131,531 ±(99.9%) 810,118 ms/op [Average]
+  (min, avg, max) = (7826,534, 8131,531, 9645,303), stdev = 535,843
+  CI (99.9%): [7321,413, 8941,650] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.Java9NativeByteArrayBenchmark.equalsTestJava9ByteArrays
+
+# Run progress: 16,67% complete, ETA 00:09:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 159,992 ms/op
+Iteration   1: 153,313 ms/op
+Iteration   2: 171,207 ms/op
+Iteration   3: 160,179 ms/op
+Iteration   4: 153,448 ms/op
+Iteration   5: 166,851 ms/op
+Iteration   6: 164,497 ms/op
+Iteration   7: 176,784 ms/op
+Iteration   8: 167,467 ms/op
+Iteration   9: 151,122 ms/op
+Iteration  10: 150,311 ms/op
+
+
+Result "equalsTestJava9ByteArrays":
+  161,518 ±(99.9%) 13,962 ms/op [Average]
+  (min, avg, max) = (150,311, 161,518, 176,784), stdev = 9,235
+  CI (99.9%): [147,556, 175,480] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.Java9NativeByteArrayBenchmark.getTestJava9ByteArray
+
+# Run progress: 25,00% complete, ETA 00:06:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 361,987 ms/op
+Iteration   1: 370,876 ms/op
+Iteration   2: 375,088 ms/op
+Iteration   3: 371,570 ms/op
+Iteration   4: 377,605 ms/op
+Iteration   5: 364,170 ms/op
+Iteration   6: 357,387 ms/op
+Iteration   7: 359,135 ms/op
+Iteration   8: 358,681 ms/op
+Iteration   9: 359,168 ms/op
+Iteration  10: 356,198 ms/op
+
+
+Result "getTestJava9ByteArray":
+  364,988 ±(99.9%) 12,166 ms/op [Average]
+  (min, avg, max) = (356,198, 364,988, 377,605), stdev = 8,047
+  CI (99.9%): [352,821, 377,154] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.RegularByteGenericArrayBenchmark.equalsTestRegularGenericArrays
+
+# Run progress: 33,33% complete, ETA 00:05:04
+# Fork: 1 of 1
+# Warmup Iteration   1: 150,813 ms/op
+Iteration   1: 147,915 ms/op
+Iteration   2: 147,317 ms/op
+Iteration   3: 146,714 ms/op
+Iteration   4: 147,673 ms/op
+Iteration   5: 147,398 ms/op
+Iteration   6: 146,482 ms/op
+Iteration   7: 147,165 ms/op
+Iteration   8: 143,636 ms/op
+Iteration   9: 146,909 ms/op
+Iteration  10: 147,716 ms/op
+
+
+Result "equalsTestRegularGenericArrays":
+  146,892 ±(99.9%) 1,862 ms/op [Average]
+  (min, avg, max) = (143,636, 146,892, 147,915), stdev = 1,232
+  CI (99.9%): [145,030, 148,754] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.RegularByteGenericArrayBenchmark.getTestRegularGenericArray
+
+# Run progress: 41,67% complete, ETA 00:04:01
+# Fork: 1 of 1
+# Warmup Iteration   1: 9158,352 ms/op
+Iteration   1: 9562,022 ms/op
+Iteration   2: 8144,307 ms/op
+Iteration   3: 8115,512 ms/op
+Iteration   4: 7972,015 ms/op
+Iteration   5: 7939,676 ms/op
+Iteration   6: 7862,570 ms/op
+Iteration   7: 7828,254 ms/op
+Iteration   8: 7921,237 ms/op
+Iteration   9: 7774,902 ms/op
+Iteration  10: 7829,545 ms/op
+
+
+Result "getTestRegularGenericArray":
+  8095,004 ±(99.9%) 800,405 ms/op [Average]
+  (min, avg, max) = (7774,902, 8095,004, 9562,022), stdev = 529,418
+  CI (99.9%): [7294,599, 8895,409] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.RegularNativeByteArrayBenchmark.equalsTestRegularByteArrays
+
+# Run progress: 50,00% complete, ETA 00:04:30
+# Fork: 1 of 1
+# Warmup Iteration   1: 421,832 ms/op
+Iteration   1: 411,922 ms/op
+Iteration   2: 430,261 ms/op
+Iteration   3: 423,168 ms/op
+Iteration   4: 430,080 ms/op
+Iteration   5: 422,315 ms/op
+Iteration   6: 422,701 ms/op
+Iteration   7: 413,175 ms/op
+Iteration   8: 421,670 ms/op
+Iteration   9: 426,896 ms/op
+Iteration  10: 427,230 ms/op
+
+
+Result "equalsTestRegularByteArrays":
+  422,942 ±(99.9%) 9,529 ms/op [Average]
+  (min, avg, max) = (411,922, 422,942, 430,261), stdev = 6,303
+  CI (99.9%): [413,413, 432,471] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.RegularNativeByteArrayBenchmark.getTestRegularByteArray
+
+# Run progress: 58,33% complete, ETA 00:03:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 355,595 ms/op
+Iteration   1: 347,246 ms/op
+Iteration   2: 349,741 ms/op
+Iteration   3: 355,981 ms/op
+Iteration   4: 357,303 ms/op
+Iteration   5: 353,861 ms/op
+Iteration   6: 357,772 ms/op
+Iteration   7: 352,781 ms/op
+Iteration   8: 354,575 ms/op
+Iteration   9: 352,262 ms/op
+Iteration  10: 352,224 ms/op
+
+
+Result "getTestRegularByteArray":
+  353,375 ±(99.9%) 4,961 ms/op [Average]
+  (min, avg, max) = (347,246, 353,375, 357,772), stdev = 3,282
+  CI (99.9%): [348,413, 358,336] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.UnsafeByteGenericArrayBenchmark.equalsTestUnsafeGenericArrays
+
+# Run progress: 66,67% complete, ETA 00:02:32
+# Fork: 1 of 1
+# Warmup Iteration   1: 161,339 ms/op
+Iteration   1: 161,129 ms/op
+Iteration   2: 158,255 ms/op
+Iteration   3: 159,753 ms/op
+Iteration   4: 157,515 ms/op
+Iteration   5: 157,897 ms/op
+Iteration   6: 159,205 ms/op
+Iteration   7: 159,070 ms/op
+Iteration   8: 168,734 ms/op
+Iteration   9: 159,133 ms/op
+Iteration  10: 162,853 ms/op
+
+
+Result "equalsTestUnsafeGenericArrays":
+  160,354 ±(99.9%) 5,049 ms/op [Average]
+  (min, avg, max) = (157,515, 160,354, 168,734), stdev = 3,340
+  CI (99.9%): [155,305, 165,404] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.UnsafeByteGenericArrayBenchmark.getTestUnsafeGenericArray
+
+# Run progress: 75,00% complete, ETA 00:01:48
+# Fork: 1 of 1
+# Warmup Iteration   1: 9208,348 ms/op
+Iteration   1: 9576,743 ms/op
+Iteration   2: 7928,017 ms/op
+Iteration   3: 7905,943 ms/op
+Iteration   4: 7994,535 ms/op
+Iteration   5: 8074,615 ms/op
+Iteration   6: 7985,308 ms/op
+Iteration   7: 7950,471 ms/op
+Iteration   8: 7906,777 ms/op
+Iteration   9: 7918,556 ms/op
+Iteration  10: 7926,491 ms/op
+
+
+Result "getTestUnsafeGenericArray":
+  8116,746 ±(99.9%) 779,555 ms/op [Average]
+  (min, avg, max) = (7905,943, 8116,746, 9576,743), stdev = 515,627
+  CI (99.9%): [7337,191, 8896,301] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.UnsafeNativeByteArrayBenchmark.equalsTestUnsafeByteArrays
+
+# Run progress: 83,33% complete, ETA 00:01:24
+# Fork: 1 of 1
+# Warmup Iteration   1: 162,484 ms/op
+Iteration   1: 160,544 ms/op
+Iteration   2: 169,283 ms/op
+Iteration   3: 164,147 ms/op
+Iteration   4: 164,640 ms/op
+Iteration   5: 161,535 ms/op
+Iteration   6: 160,077 ms/op
+Iteration   7: 160,946 ms/op
+Iteration   8: 160,299 ms/op
+Iteration   9: 158,367 ms/op
+Iteration  10: 160,810 ms/op
+
+
+Result "equalsTestUnsafeByteArrays":
+  162,065 ±(99.9%) 4,760 ms/op [Average]
+  (min, avg, max) = (158,367, 162,065, 169,283), stdev = 3,149
+  CI (99.9%): [157,304, 166,825] (assumes normal distribution)
+
+
+# JMH 1.13 (released 2 days ago)
+# VM version: JDK 9-ea, VM 9-ea+128
+# VM invoker: C:\Program Files\Java\jdk-9\bin\java.exe
+# VM options: <none>
+# Warmup: 1 iterations, 1 s each
+# Measurement: 10 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.arrays.NativeArraysBenchmark.UnsafeNativeByteArrayBenchmark.getTestUnsafeByteArray
+
+# Run progress: 91,67% complete, ETA 00:00:40
+# Fork: 1 of 1
+# Warmup Iteration   1: 358,051 ms/op
+Iteration   1: 357,744 ms/op
+Iteration   2: 355,854 ms/op
+Iteration   3: 363,088 ms/op
+Iteration   4: 357,100 ms/op
+Iteration   5: 355,319 ms/op
+Iteration   6: 352,181 ms/op
+Iteration   7: 351,355 ms/op
+Iteration   8: 357,178 ms/op
+Iteration   9: 356,640 ms/op
+Iteration  10: 355,971 ms/op
+
+
+Result "getTestUnsafeByteArray":
+  356,243 ±(99.9%) 4,843 ms/op [Average]
+  (min, avg, max) = (351,355, 356,243, 363,088), stdev = 3,203
+  CI (99.9%): [351,400, 361,086] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:07:37
+
+Benchmark                                                                              Mode  Cnt     Score     Error  Units
+NativeArraysBenchmark.Java9ByteGenericArrayBenchmark.equalsTestJava9GenericArrays      avgt   10   149,097 ±   3,253  ms/op
+NativeArraysBenchmark.Java9ByteGenericArrayBenchmark.getTestJava9GenericArray          avgt   10  8131,531 ± 810,118  ms/op
+NativeArraysBenchmark.Java9NativeByteArrayBenchmark.equalsTestJava9ByteArrays          avgt   10   161,518 ±  13,962  ms/op
+NativeArraysBenchmark.Java9NativeByteArrayBenchmark.getTestJava9ByteArray              avgt   10   364,988 ±  12,166  ms/op
+NativeArraysBenchmark.RegularByteGenericArrayBenchmark.equalsTestRegularGenericArrays  avgt   10   146,892 ±   1,862  ms/op
+NativeArraysBenchmark.RegularByteGenericArrayBenchmark.getTestRegularGenericArray      avgt   10  8095,004 ± 800,405  ms/op
+NativeArraysBenchmark.RegularNativeByteArrayBenchmark.equalsTestRegularByteArrays      avgt   10   422,942 ±   9,529  ms/op
+NativeArraysBenchmark.RegularNativeByteArrayBenchmark.getTestRegularByteArray          avgt   10   353,375 ±   4,961  ms/op
+NativeArraysBenchmark.UnsafeByteGenericArrayBenchmark.equalsTestUnsafeGenericArrays    avgt   10   160,354 ±   5,049  ms/op
+NativeArraysBenchmark.UnsafeByteGenericArrayBenchmark.getTestUnsafeGenericArray        avgt   10  8116,746 ± 779,555  ms/op
+NativeArraysBenchmark.UnsafeNativeByteArrayBenchmark.equalsTestUnsafeByteArrays        avgt   10   162,065 ±   4,760  ms/op
+NativeArraysBenchmark.UnsafeNativeByteArrayBenchmark.getTestUnsafeByteArray            avgt   10   356,243 ±   4,843  ms/op

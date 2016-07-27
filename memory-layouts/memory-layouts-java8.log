@@ -1,0 +1,147 @@
+# JMH 1.13 (released 3 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 100 ms each
+# Measurement: 10 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.memorylayout.ByteBufferMemoryLayoutBenchmark.testByteBufferMemoryLayout
+
+# Run progress: 0,00% complete, ETA 00:00:03
+# Fork: 1 of 1
+# Warmup Iteration   1: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+683,693 ms/op
+# Warmup Iteration   2: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+658,987 ms/op
+# Warmup Iteration   3: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+722,490 ms/op
+Iteration   1: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+732,385 ms/op
+Iteration   2: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+777,413 ms/op
+Iteration   3: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+745,350 ms/op
+Iteration   4: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+692,364 ms/op
+Iteration   5: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+720,710 ms/op
+Iteration   6: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+717,085 ms/op
+Iteration   7: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+697,892 ms/op
+Iteration   8: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+694,713 ms/op
+Iteration   9: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+708,243 ms/op
+Iteration  10: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+700,236 ms/op
+
+
+Result "testByteBufferMemoryLayout":
+  718,639 ±(99.9%) 40,641 ms/op [Average]
+  (min, avg, max) = (692,364, 718,639, 777,413), stdev = 26,882
+  CI (99.9%): [677,998, 759,280] (assumes normal distribution)
+
+
+# JMH 1.13 (released 3 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 100 ms each
+# Measurement: 10 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.memorylayout.DirectMemoryLayoutBenchmark.testDirectMemoryLayout
+
+# Run progress: 33,33% complete, ETA 00:00:19
+# Fork: 1 of 1
+# Warmup Iteration   1: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+551,426 ms/op
+# Warmup Iteration   2: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+539,682 ms/op
+# Warmup Iteration   3: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+524,493 ms/op
+Iteration   1: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+512,004 ms/op
+Iteration   2: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+522,019 ms/op
+Iteration   3: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+511,376 ms/op
+Iteration   4: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+538,960 ms/op
+Iteration   5: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+537,178 ms/op
+Iteration   6: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+523,096 ms/op
+Iteration   7: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+521,213 ms/op
+Iteration   8: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+524,379 ms/op
+Iteration   9: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+525,619 ms/op
+Iteration  10: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+515,758 ms/op
+
+
+Result "testDirectMemoryLayout":
+  523,160 ±(99.9%) 14,046 ms/op [Average]
+  (min, avg, max) = (511,376, 523,160, 538,960), stdev = 9,291
+  CI (99.9%): [509,114, 537,207] (assumes normal distribution)
+
+
+# JMH 1.13 (released 3 days ago)
+# VM version: JDK 1.8.0_92, VM 25.92-b14
+# VM invoker: C:\Program Files\Java\jdk1.8.0_92\jre\bin\java.exe
+# VM options: <none>
+# Warmup: 3 iterations, 100 ms each
+# Measurement: 10 iterations, 100 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: org.benchmarks.memorylayout.JavaMemoryLayoutBenchmark.testJavaMemoryLayout
+
+# Run progress: 66,67% complete, ETA 00:00:08
+# Fork: 1 of 1
+# Warmup Iteration   1: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+15569,156 ms/op
+# Warmup Iteration   2: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+13867,375 ms/op
+# Warmup Iteration   3: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+9680,897 ms/op
+Iteration   1: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+9570,211 ms/op
+Iteration   2: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+9549,287 ms/op
+Iteration   3: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10419,776 ms/op
+Iteration   4: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10613,236 ms/op
+Iteration   5: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10301,826 ms/op
+Iteration   6: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10256,746 ms/op
+Iteration   7: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10245,626 ms/op
+Iteration   8: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10360,251 ms/op
+Iteration   9: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10166,593 ms/op
+Iteration  10: buyCost = 3175439773628222144 sellCost = 3175752273615722144
+10232,571 ms/op
+
+
+Result "testJavaMemoryLayout":
+  10171,612 ±(99.9%) 522,411 ms/op [Average]
+  (min, avg, max) = (9549,287, 10171,612, 10613,236), stdev = 345,543
+  CI (99.9%): [9649,201, 10694,023] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:02:38
+
+Benchmark                                                   Mode  Cnt      Score     Error  Units
+ByteBufferMemoryLayoutBenchmark.testByteBufferMemoryLayout  avgt   10    718,639 ±  40,641  ms/op
+DirectMemoryLayoutBenchmark.testDirectMemoryLayout          avgt   10    523,160 ±  14,046  ms/op
+JavaMemoryLayoutBenchmark.testJavaMemoryLayout              avgt   10  10171,612 ± 522,411  ms/op
